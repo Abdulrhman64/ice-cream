@@ -13,7 +13,6 @@
     <div class="knob"></div>
   </div>
 </label>
-<p id="p">ice cream mode off</p>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const toggle = document.getElementById("toggle");
@@ -21,9 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   toggle.onclick = function () {
     document.body.style.backgroundColor = this.checked ? "bisque" : "";
-    p.textContent = this.checked ? "ice cream mode on" : "ice cream mode off";
   };
 });
 </script>
 </body>
+
 </html>
